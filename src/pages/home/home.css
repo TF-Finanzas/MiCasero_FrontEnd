@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+.home-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    min-height: 100dvh;
+    background-color: #36d65e;
+}
+.hb-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 45%;
+    min-height: 100dvh;
+}
+.home-nav {
+  width: 100%;
+}
+.hb-user {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.hb-user h1 {
+    margin: 0;
+}
+
+.hb-user .p-button {
+    margin-left: 10px; /* Adjust the margin as needed */
+}

@@ -1,0 +1,22 @@
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    background-color: #36d65e;
+}
+.su-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 30%;
+}
+
+.su-body p {
+    margin-bottom: 1em;
+}
+.sub-title {
+    width: 100%;
+    text-align: center;
+    margin-block: 2em 1em;
+}
